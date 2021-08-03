@@ -94,7 +94,7 @@ body{
 .main{
     display:flex;
     padding-left:22px;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
 }
 .recepi-1{
     width: 25%;
@@ -112,6 +112,16 @@ body{
 .recepi-1 h1{
     font-size: 25px;
 }
-..recepi-1{
+.recepi-1 p{
     text-align: justify;
+}
+.popular h1{
+    text-align: center;
+    font-size: 40px;
+}
+.border{
+    border-radius: 20px;
+}
+.main h1{
+    font-size: 25px;
 }
