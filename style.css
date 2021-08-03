@@ -47,6 +47,7 @@ body{
     border-radius: 17px;
     font-size: 20px;
     background: linear-gradient(tomato ,orange);
+    padding-top: 20x;
 }
 .header{
     display: flex;
@@ -78,4 +79,39 @@ body{
     width: 50%;
     padding-left: 400px;
     padding-top: 100px;
+}
+#text h1{
+    color: orange;
+    font-size: 40px;
+    text-align: center;
+}
+#text  p{
+    font-size: 17px;
+    font-weight: 900;
+    padding-left: 400px;
+    text-align:justify;
+}
+.main{
+    display:flex;
+    padding-left:22px;
+    padding-bottom: 30px;
+}
+.recepi-1{
+    width: 25%;
+    text-align:center ;
+    padding: 10px 10px;
+    box-shadow: 5px 5px 10px rgb(131, 128, 128);
+    border-radius: 25px;
+    
+    margin: 20px 40px;
+    
+}
+.recepi-1 img{
+    width: 100%;
+}
+.recepi-1 h1{
+    font-size: 25px;
+}
+..recepi-1{
+    text-align: justify;
 }
