@@ -1,86 +1,81 @@
 body{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
     margin: 0;
     padding: 0;
 }
-.nav{
+.menu{
+    width: 100%;
     
-    margin-left: 50px;
+    text-align: right;
+    padding-top: 30px;
+    
 }
-.nav li {
+.menu li{
     list-style: none;
-    margin-right: 30px;
-    margin-top: 25px;
     display: inline-block;
-    
-    
+    margin-right:20px;
    
 }
-.nav li a {
+.menu li a{
     text-decoration: none;
-    padding: 5px 10px;
-    font-size: 20px;
-    color: white;
-    background:linear-gradient(orange, tomato);
-    border-radius: 5px;
+    color: black;
+    padding: 10px 20px;
+    font-size: 25px;
+    font-weight: 600;
     
 }
-.header{
-    display: flex;
-    margin-left: 100px;;
+.orange{
+    color:orange;
 }
-
-.half-width{
-    padding-top: 150px;
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-bottom: 25px;
-    width: 50%;
-   
+.black{
+    color: black;
 }
 .half-width h1{
     font-size: 50px;
-    font-weight:900;
-    color: rgb(82, 80, 80);
-}
-.half-width h5{
-    font-size: 30px;
-    font-weight:900;
-    color: rgb(82, 80, 80);
-}
-#orange{
-    color: orange;
+    font-weight: bolder;
 }
 .half-width p{
-    color: gray;
+    color: rgb(90, 89, 89);
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: justify;
 }
-.button a{
+.half-width a{
     text-decoration: none;
-    background: linear-gradient(orange,tomato);
-    padding: 10px 15px;
-    color: white;
-    border-radius: 20px;
+    padding: 10px 20px;
+    color:white;
+    border-radius: 17px;
+    font-size: 20px;
+    background: linear-gradient(tomato ,orange);
+}
+.header{
+    display: flex;
+    margin-top: 40px;
+    padding: 20px 50px;
     
 }
 .half-width img{
-    width: 100%;
-    
+    width: 500px;
 }
-.person{
-    width: 80%;
-    padding-bottom: 500px;
+..half-width{
+    width: 50%;
+}
+.background{
+    background: rgb(213, 247, 247);
 }
 .about-me{
-    display:flex;
-    background-image: url(image/Frame\ 59.jpg);
+    display: flex;
+    background-image: url(image/7.png);
     background-repeat: no-repeat;
-    background-size: 100%;
-    
 }
-.button-2 a{
-    text-decoration: none;
-    padding: 10px 15px;
-    color: white;
-    border-radius: 20px;
-    background: linear-gradient(rgb(250, 144, 215),rgb(241, 2, 162));
+.pic img{
+    width: 100%;
+    padding-top: 130px;
+    padding-left:200px;
+    padding-bottom: 200px;
+}
+.me{
+    width: 50%;
+    padding-left: 400px;
+    padding-top: 100px;
 }
