@@ -1,6 +1,7 @@
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
+    padding: 0;
 }
 .nav{
     
@@ -53,7 +54,7 @@ body{
 .half-width p{
     color: gray;
 }
-.half-width a{
+.button a{
     text-decoration: none;
     background: linear-gradient(orange,tomato);
     padding: 10px 15px;
@@ -64,4 +65,22 @@ body{
 .half-width img{
     width: 100%;
     
+}
+.person{
+    width: 80%;
+    padding-bottom: 500px;
+}
+.about-me{
+    display:flex;
+    background-image: url(image/Frame\ 59.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+}
+.button-2 a{
+    text-decoration: none;
+    padding: 10px 15px;
+    color: white;
+    border-radius: 20px;
+    background: linear-gradient(rgb(250, 144, 215),rgb(241, 2, 162));
 }
